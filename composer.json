@@ -1,0 +1,26 @@
+{
+    "name": "lubed/logger",
+    "type": "project",
+    "license": "proprietary",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.2.5",
+        "ext-json": "*",
+        "ext-iconv": "*",
+        "lubed/utils":"dev-main"
+    },
+    "config": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Lubed\\Logger\\": "src/"
+        }
+    },
+    "scripts": {
+
+    },
+    "conflict": {
+    },
+    "extra": {
+    }
+}
